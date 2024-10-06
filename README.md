@@ -8,3 +8,5 @@ Diferença de entre computação on-premisse, em nuvem e híbrida:
 Conceito de CAPEX (custo de investimento) e OPEX (custo de manutenção/operacional).
 
 Como criar uma conta gratuita na Azure e navegar e seus menus.
+
+É importante entender qual deve ser o SLA (service level agreement) antes de começar a criar as máquinas virtuais. Para um período de desenvolvimento e testes, o SLA pode ser 99%, no entanto em produção, deve ser maior que isso caso o sistema não posso ficar offline por muito tempo. Quanto maior o SLA (99,99%), maior o custo envolvido, então é importante conhecer bem as necessidades antes de implantá-lo.
